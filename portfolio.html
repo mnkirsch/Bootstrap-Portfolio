@@ -11,15 +11,12 @@
 
         <div>
             <div>
-                <div>
-                    <h1>Marc Kirsch</h1>
-                </div>
-
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                     <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
+                        <h1 id="nav" style="background-color: #4aaaa5; color:#fff">Marc Kirsch</h1>
+                        <ul class="navbar-nav ml-auto" style="color:#777777!important">
 
-                            <li class="nav-item active">
+                            <li class="nav-item">
 
                                 <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
 
@@ -101,6 +98,19 @@
 
 
 <style>
+    .carousel-caption p {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
 
     img {
         padding: 10px;
@@ -114,5 +124,20 @@
         background: #444444;
         width: 300px;
     }
+
+    #nav {
+        padding: 20px;
+    }
+
+    .bg-dark {
+        background:#fff!important;
+    }
+
+    @media screen and (max-width: 768px) {
+  /* The body's bg color will be #333 */
+  nav {
+      width: 600px;
+  }
+}
 
 </style>
