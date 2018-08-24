@@ -13,7 +13,8 @@
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <h1 style="color:#fff">Marc Kirsch</h1>
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
                     </li>
@@ -29,24 +30,24 @@
     </div>
   </header>
 
-  <div id="main-container" class="container">
+  <div id="main-container" class="container" style="border: solid 2px #777777">
     <section class="main-section">
       <h1>Contact</h1>
 
       <form id="contact-form">
         <ul>
-          <li>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-          </li>
-          <li>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-          </li>
-          <li>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required="required"></textarea>
-          </li>
+            <div class="form-group">
+                <label for="usr">Name:</label>
+                <input type="text" class="form-control" id="usr">
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="password" class="form-control" id="email">
+              </div>
+              <div class="form-group">
+                  <label for="comment">Message:</label>
+                  <textarea class="form-control" rows="5" id="comment"></textarea>
+                </div>
         </ul>
         <input type="submit">
       </form>
@@ -54,9 +55,9 @@
     </section>
 
   </div>
-
-  <footer>
-    <div class="container">
+<br><br><br>
+  <footer class="footer">
+    <div class="container" style="background: #777777; color: white; text-align: center; border-top: solid 4px #4aaaa5; padding: 10px;">
       Copyright &copy; 
     </div>
   </footer>
